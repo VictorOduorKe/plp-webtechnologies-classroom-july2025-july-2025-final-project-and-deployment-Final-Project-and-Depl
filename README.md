@@ -1,90 +1,115 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Multipage Website — Acme Studio
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+A simple, responsive multipage website built with **HTML5, CSS3, and JavaScript**. The project demonstrates semantic structure, reusable layouts, and interactive elements suitable for a small portfolio, agency, or studio showcase.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+## 🌐 Purpose
+This website is designed as a **portfolio/product showcase** template for a creative studio. It includes:
+- **Home Page** with hero, features, and gallery
+- **About Page** with team profiles
+- **Services Page** outlining offerings
+- **Contact Page** with a working form (client-side validation)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## 📂 Project Structure
+```
+multipage-site/
+│
+├── index.html        # Home page
+├──pages
+     about.html        # About page
+     services.html     # Services page
+     contact.html      # Contact page
+│
+├── css/
+│   └── style.css    # Global styles
+│
+├── js/
+│   └── script.js       # Navigation, form validation, animations
+│
+├── images/           # Project images (hero, gallery, team)
+│
+└── README.md         # Documentation
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## 🎨 Features
+- **Responsive design** (mobile-first, flexible grids)
+- **Sticky header + mobile nav toggle**
+- **Hero section with CTA**
+- **Feature cards and gallery**
+- **Team profiles on About page**
+- **Services overview page**
+- **Contact form with validation** (name, email, message)
+- **Subtle animations** (fade-up on scroll)
+- **Reusable header/footer across pages**
 
 ---
 
-## Deliverables
+## 🚀 Getting Started
 
-1. A GitHub repository containing:
+### 1. Clone or Download
+```bash
+git clone https://github.com/VictorOduorKe/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+cd multipage-site
+```
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+### 2. Serve Locally
+Use a static server of your choice:
+```bash
+
+# liver server
+run with live server
+```
+Open [http://127.0.0.1:5500/](http://127.0.0.1:5500) in your browser.
 
 ---
 
-## Outcome
+## 🛠️ Customization
+- Replace images in `/images/`
+- Update text content in each `.html` page
+- Adjust colors or layout in `css/styles.css`
+- Add new pages by copying the structure of an existing page
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## ✅ Best Practices
+- Semantic HTML5 tags for accessibility
+- Mobile-first CSS and responsive breakpoints
+- Organized folder structure (`/css`, `/js`, `/images`)
+- Clean, modular, and commented code
+- Tested across screen sizes
+
+---
+
+## 📦 Deployment
+You can deploy this website easily on:
+- **Netlify** (drag-and-drop folder or connect repo)
+- **Vercel**
+- **GitHub Pages**
+- **Any static web hosting service**
+
+---
+# LIve site
+()[]
+## 📸 Preview
+home page
+<img src="./images/home.png" alt="Website Preview" width="400">
+
+About
+<img src="./images/home.about.png" alt="Website Preview" width="400">
+
+services
+<img src="./images/SERVICES.png" alt="Website Preview" width="400">
+
+contact
+<img src="./images/contact.png" alt="Website Preview" width="400">
+
+
+---
+
+## 📄 License
+This project is open source. You may use, modify, and share it freely.
