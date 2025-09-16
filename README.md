@@ -94,7 +94,7 @@ You can deploy this website easily on:
 
 ---
 # LIve site
-()[]
+(VISIT MY SITE HERE)[http://acme-studio.netlify.app/]
 ## 📸 Preview
 home page
 <img src="./images/home.png" alt="Website Preview" width="400">
